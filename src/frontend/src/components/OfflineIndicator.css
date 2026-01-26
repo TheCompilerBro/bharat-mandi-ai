@@ -1,0 +1,29 @@
+.offline-indicator {
+  background: #ffc107;
+  color: #856404;
+  padding: 8px 0;
+  border-bottom: 1px solid #ffeaa7;
+  position: sticky;
+  top: 60px;
+  z-index: 90;
+}
+
+.offline-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .offline-indicator {
+    top: 56px;
+    padding: 6px 0;
+  }
+  
+  .offline-content {
+    font-size: 0.8125rem;
+  }
+}
