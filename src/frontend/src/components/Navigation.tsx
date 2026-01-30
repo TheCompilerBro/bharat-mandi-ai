@@ -46,6 +46,17 @@ const Navigation: React.FC = () => {
       )
     },
     {
+      path: '/vendor-items',
+      label: 'My Items',
+      priority: 'high',
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fillRule="evenodd" d="M10 2L3 7v11a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V7l-7-5zM6 16v-4h8v4H6z" clipRule="evenodd" />
+          <path d="M1 12l9-8 9 8v8a2 2 0 01-2 2H3a2 2 0 01-2-2v-8z" />
+        </svg>
+      )
+    },
+    {
       path: '/profile',
       label: 'Profile',
       priority: 'medium',

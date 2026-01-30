@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard'
 import PriceDiscovery from './pages/PriceDiscovery'
 import Messaging from './pages/Messaging'
 import Profile from './pages/Profile'
+import VendorItems from './pages/VendorItems'
 import Login from './pages/Login'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { OfflineProvider } from './contexts/OfflineContext'
@@ -41,6 +42,7 @@ function AppContent() {
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/prices" element={<PriceDiscovery />} />
                 <Route path="/messages" element={<Messaging />} />
+                <Route path="/vendor-items" element={<VendorItems />} />
                 <Route path="/profile" element={<Profile />} />
               </Routes>
             </main>
@@ -54,6 +56,7 @@ function AppContent() {
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/prices" element={<PriceDiscovery />} />
                 <Route path="/messages" element={<Messaging />} />
+                <Route path="/vendor-items" element={<VendorItems />} />
                 <Route path="/profile" element={<Profile />} />
               </Routes>
             </main>
